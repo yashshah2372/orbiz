@@ -1,6 +1,6 @@
-import React from 'react';
-import cssClasses from "./styles/MainPage.module.css"
-import serviceOne from '../../Assets/service-icon/service-1.png';
+import React from "react";
+import cssClasses from "./styles/MainPage.module.css";
+import serviceOne from "../../Assets/service-icon/service-1.png";
 
 const Feature = () => {
     return (
@@ -65,7 +65,7 @@ const Feature = () => {
                 </div>
             </section>
         </>
-    )
-}
+    );
+};
 
 export default Feature;
