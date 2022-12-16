@@ -1,11 +1,12 @@
-import React from 'react'
-import cssClasses from './styles/MainPage.module.css';
+import React from "react";
+import cssClasses from "./styles/MainPage.module.css";
 import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
 
 const Header = () => {
     return (
         <>
             <div className={`${cssClasses.ftcoDegreeBg} ${cssClasses.heroWrap}`}>
+                <span>Move Into What Moves You!</span>
                 <div className={cssClasses.overlay}></div>
                 <div className={cssClasses.mouse}>
                     <a href="/" className={`${cssClasses.mouseIcon}`}>
@@ -16,7 +17,7 @@ const Header = () => {
                 </div>
             </div>
         </>
-    )
-}
+    );
+};
 
-export default Header
+export default Header;

@@ -13,7 +13,9 @@ const Feature = () => {
                         <div className={cssClasses.feature_content}>
                             <div class={cssClasses.item}>
                                 <div class={cssClasses.testiItem}>
-                                    <h3>O<span>ptimum</span></h3>
+                                    <h3>
+                                        O<span>ptimum</span>
+                                    </h3>
                                     <p>Optimum usage of Space, “Minimal wastage homes" is our motto, providing you with the ideal space required for your comfort, no more- no less.</p>
                                     <div class={cssClasses.media}>
                                         <div class={cssClasses.dFlex}>
@@ -24,8 +26,10 @@ const Feature = () => {
                             </div>
                             <div class={cssClasses.item}>
                                 <div class={cssClasses.testiItem}>
-                                    <h3>R<span>eal</span></h3>
-                                    <p>“REAL” Estate, not just an Estate. It is an asset that is made using utmost quality Materials, with the best workmanship which is our USP.</p>
+                                    <h3>
+                                        R<span>eal</span>
+                                    </h3>
+                                    <p>“REAL” Estate, not just an Estate. An asset made using utmost quality Materials, with the best workmanship which is our USP.</p>
                                     <div class={cssClasses.media}>
                                         <div class={cssClasses.dFlex}>
                                             <img class={cssClasses.rounded_circle} src="img/testimonials/testi-1.jpg" alt="" />
@@ -35,8 +39,10 @@ const Feature = () => {
                             </div>
                             <div class={cssClasses.item}>
                                 <div class={cssClasses.testiItem}>
-                                    <h3>B<span>alanced</span></h3>
-                                    <p>Balanced well between all your concerns – Location, Price, Area.</p>
+                                    <h3>
+                                        B<span>alanced</span>
+                                    </h3>
+                                    <p>Balanced well between all your concerns – Location, Price, Area. Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                                     <div class={cssClasses.media}>
                                         <div class={cssClasses.dFlex}>
                                             <img class={cssClasses.rounded_circle} src="img/testimonials/testi-1.jpg" alt="" />
@@ -46,8 +52,10 @@ const Feature = () => {
                             </div>
                             <div class={cssClasses.item}>
                                 <div class={cssClasses.testiItem}>
-                                    <h3>I<span>llustrative</span></h3>
-                                    <p>Illustrative homes setting a benchmark in Built Quality.</p>
+                                    <h3>
+                                        I<span>llustrative</span>
+                                    </h3>
+                                    <p>Illustrative homes setting a benchmark in Built Quality. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                     <div class={cssClasses.media}>
                                         <div class={cssClasses.dFlex}>
                                             <img class={cssClasses.rounded_circle} src="img/testimonials/testi-1.jpg" alt="" />
@@ -57,8 +65,10 @@ const Feature = () => {
                             </div>
                             <div class={cssClasses.item}>
                                 <div class={cssClasses.testiItem}>
-                                    <h3>Z<span></span></h3>
-                                    <p>Just like the letter Z, we ensure to be supportive till the End.</p>
+                                    <h3>
+                                        Z<span></span>
+                                    </h3>
+                                    <p>Just like the letter Z, we ensure to be supportive till the End.Reiciendis, quibusdam!</p>
                                     <div class={cssClasses.media}>
                                         <div class={cssClasses.dFlex}>
                                             <img class={cssClasses.rounded_circle} src="img/testimonials/testi-1.jpg" alt="" />
