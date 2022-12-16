@@ -30,17 +30,17 @@ const Team = () => {
                                         </div>
                                     </div>
                                     <div className={`${cssClasses.col_lg_6} ${cssClasses.col - 6}`}>
-                                        <div className="team_img_item">
+                                        <div className={cssClasses.team_img_item}>
                                             <img src={teamP2} alt="" />
                                         </div>
                                     </div>
                                     <div className={`${cssClasses.col_lg_6} ${cssClasses.col - 6}`}>
-                                        <div className="team_img_item">
+                                        <div className={cssClasses.team_img_item}>
                                             <img src={teamP3} alt="" />
                                         </div>
                                     </div>
                                     <div className={`${cssClasses.col_lg_6} ${cssClasses.col - 6}`}>
-                                        <div className="team_img_item">
+                                        <div className={cssClasses.team_img_item}>
                                             <img src={teamP4} alt="" />
                                         </div>
                                     </div>
