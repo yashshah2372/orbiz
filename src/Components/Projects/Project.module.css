@@ -1,0 +1,13 @@
+.imageWrapper {
+    height: 32.5rem;
+    width: 75%;
+}
+.image {
+    position: relative;
+    background-image: url(../../Assets/Images/div.svg);
+    height: 100%;
+    /* width: 70%; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

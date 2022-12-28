@@ -4,6 +4,10 @@ module.exports = {
 
     theme: {
         extend: {},
+        fontFamily: {
+            sans: ["Montserrat", "sans-serif"],
+            serif: ["Montserrat", "serif"],
+        },
     },
     plugins: [require("flowbite/plugin")],
 };

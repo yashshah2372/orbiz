@@ -1,14 +1,14 @@
 import React from "react";
 import cssClasses from "../Home/styles/MainPage.module.css";
-import logoImg from '../../Assets/Logo/Orbiz-Logo.png'
+import logoImg from "../../Assets/Logo/OrbizLogoH.png";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
     return (
-        <header className={`${cssClasses.main_menu_area} shadow-lg`}>
+        <header className={`${cssClasses.main_menu_area}`}>
             <nav className={`${cssClasses.navbar} ${cssClasses.navbar_expand_lg} ${cssClasses.navbar_light} ${cssClasses.bg_light}`}>
                 <a className={cssClasses.navbar_brand} href="/">
-                    <img className="w-16" src={logoImg} alt="" />
+                    <img className="w-32" src={logoImg} alt="" />
                 </a>
                 {/* <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span></span>

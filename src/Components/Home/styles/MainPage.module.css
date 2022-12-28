@@ -348,7 +348,7 @@ i:before {
 }
 
 .main_menu_area .navbar .navbar_nav .nav_item.submenu .dropdown-menu li:hover .nav_link {
-    color: #97ccfe;
+    color: #74b5fe;
 }
 
 @media (min-width: 992px) {
@@ -362,7 +362,7 @@ i:before {
 
 .main_menu_area .navbar .navbar_nav .nav_item:hover .nav_link,
 .main_menu_area .navbar .navbar_nav .nav_item.active .nav_link {
-    color: #fff;
+    text-shadow: 0px 0px 4px rgba(8, 24, 40, 0.4);
 }
 
 .main_menu_area.navbar_fixed {
@@ -420,6 +420,10 @@ i:before {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(../../../Assets//Images/OrbizHeroVector.svg);
+    background-size: 100vw;
+    background-position-x: center;
+    background-position-y: bottom;
 }
 .ftcoDegreeBg span {
     font-size: 5rem;
@@ -429,7 +433,7 @@ i:before {
     text-align: center;
 }
 
-.ftcoDegreeBg:after {
+/* .ftcoDegreeBg:after {
     content: "";
     position: absolute;
     right: 0;
@@ -460,7 +464,7 @@ i:before {
     -o-transform: skewY(4deg);
     transform: skewY(4deg);
     background-color: #fff;
-}
+} */
 /*----------------------------------------------------*/
 /* Banner Area css
 ============================================================================================ */
