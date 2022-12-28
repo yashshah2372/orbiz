@@ -1,9 +1,8 @@
-import "./KnowledgeBank.module.css";
 
 function KnowledgeBank() {
     return (
         <>
-            <section class="bg-white dark:bg-gray-900">
+            <section class="bg-white dark:bg-gray-900 mt-8">
                 <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
                     <h2 class="mb-8 text-4xl tracking-tight font-extrabold mt-16 text-gray-900 dark:text-white">Frequently asked questions</h2>
                     <div class="grid pt-8 text-left border-t border-gray-200 md:gap-16 dark:border-gray-700 md:grid-cols-2">
@@ -36,7 +35,7 @@ function KnowledgeBank() {
                                 <p class="text-gray-500 dark:text-gray-400">We're aware of the importance of well qualified support, that is why we decided that support will only be provided by the authors that actually worked on this project.</p>
                                 <p class="text-gray-500 dark:text-gray-400">
                                     Feel free to{" "}
-                                    <a href="#" class="font-medium underline text-primary-600 dark:text-primary-500 hover:no-underline" target="_blank" rel="noreferrer">
+                                    <a href="/" class="font-medium underline text-primary-600 dark:text-primary-500 hover:no-underline" target="_blank" rel="noreferrer">
                                         contact us
                                     </a>{" "}
                                     and we'll help you out as soon as we can.
@@ -69,7 +68,7 @@ function KnowledgeBank() {
                                 </h3>
                                 <p class="text-gray-500 dark:text-gray-400">
                                     The free updates that will be provided is based on the{" "}
-                                    <a href="#" class="font-medium underline text-primary-600 dark:text-primary-500 hover:no-underline">
+                                    <a href="/" class="font-medium underline text-primary-600 dark:text-primary-500 hover:no-underline">
                                         roadmap
                                     </a>{" "}
                                     that we have laid out for this project. It is also possible that we will provide extra updates outside of the roadmap as well.
@@ -84,7 +83,7 @@ function KnowledgeBank() {
                                 </h3>
                                 <p class="text-gray-500 dark:text-gray-400">
                                     The{" "}
-                                    <a href="#" class="font-medium underline text-primary-600 dark:text-primary-500 hover:no-underline">
+                                    <a href="/" class="font-medium underline text-primary-600 dark:text-primary-500 hover:no-underline">
                                         free version
                                     </a>{" "}
                                     of Windster includes a minimal style guidelines, component variants, and a dashboard page with the mobile version alongside it.

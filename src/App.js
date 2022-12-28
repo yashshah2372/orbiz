@@ -2,12 +2,15 @@ import "./App.css";
 import MainPage from "./Components/Home/MainPage";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./Components/common/Navbar";
-import About from "./Components/About/About";
-import Projects from "./Components/Projects/Projects";
 import Footer from "./Components/common/Footer";
-import Career from "./Components/Career/career";
-import ContactUs from "./Components/ContactUs/ContactUs";
-import KnowledgeBank from "./Components/KnowledgeBank/KnowledgeBank";
+import Loader from "./Components/common/loader";
+import React from "react";
+
+const AboutUs = React.lazy(() => import("./Components/About/About"));
+const ContactUs = React.lazy(() => import("./Components/ContactUs/ContactUs"));
+const Projects = React.lazy(() => import("./Components/Projects/Projects"));
+const KnowledgeBank = React.lazy(() => import("./Components/KnowledgeBank/KnowledgeBank"));
+const Career = React.lazy(() => import("./Components/Career/career"));
 
 function App() {
     return (
@@ -15,12 +18,51 @@ function App() {
             <Navbar />
             <Routes>
                 <Route path="/" element={<MainPage />}></Route>
-                <Route exact path="/about-us" element={<About />}></Route>
-                <Route exact path="/projects" element={<Projects />}></Route>
-                <Route exact path="/career" element={<Career />}></Route>
-                <Route exact path="/projects" element={<Projects />}></Route>
-                <Route exact path="/contactUs" element={<ContactUs />}></Route>
-                <Route exact path="/KnowledgeBank" element={<KnowledgeBank />}></Route>
+                <Route
+                    exact
+                    path="/about-us"
+                    element={
+                        <React.Suspense fallback={<Loader />}>
+                            <AboutUs />
+                        </React.Suspense>
+                    }
+                ></Route>
+                <Route
+                    exact
+                    path="/projects"
+                    element={
+                        <React.Suspense fallback={<Loader />}>
+                            <Projects />
+                        </React.Suspense>
+                    }
+                />
+                <Route
+                    exact
+                    path="/career"
+                    element={
+                        <React.Suspense fallback={<Loader />}>
+                            <Career />
+                        </React.Suspense>
+                    }
+                ></Route>
+                <Route
+                    exact
+                    path="/contactUs"
+                    element={
+                        <React.Suspense fallback={<Loader />}>
+                            <ContactUs />
+                        </React.Suspense>
+                    }
+                ></Route>
+                <Route
+                    exact
+                    path="/KnowledgeBank"
+                    element={
+                        <React.Suspense fallback={<Loader />}>
+                            <KnowledgeBank />
+                        </React.Suspense>
+                    }
+                ></Route>
             </Routes>
             <Footer />
         </Router>
