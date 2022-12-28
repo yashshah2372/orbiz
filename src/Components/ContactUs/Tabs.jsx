@@ -6,7 +6,7 @@ const Tabs = ({ tabCategories, handleTabChange }) => {
     }
 
     return (
-        <div className="flex w-full sm:px-0 shadow">
+        <div className="flex w-1/2 mx-auto sm:px-0 border-b border-gray-300">
             <Tab.Group
                 onChange={index => handleTabChange(index)}
             >
@@ -18,7 +18,7 @@ const Tabs = ({ tabCategories, handleTabChange }) => {
                                 classNames(
                                     "w-28 py-3 font-semibold leading-5 tracking-wider focus:outline-none text-base",
                                     selected
-                                        ? "bg-white text-indigo-600 border-b-2 border-indigo-600"
+                                        ? "bg-white text-indigo-600 border-b-4 border-indigo-600"
                                         : "text-gray-900 hover:bg-white/[0.12]"
                                 )
                             }
