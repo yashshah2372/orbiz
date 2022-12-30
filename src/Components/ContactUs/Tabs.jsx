@@ -16,7 +16,7 @@ const Tabs = ({ tabCategories, handleTabChange }) => {
                             key={category}
                             className={({ selected }) =>
                                 classNames(
-                                    "w-28 py-3 font-semibold leading-5 tracking-wider focus:outline-none text-base",
+                                    "w-32 py-3 font-semibold leading-5 tracking-wider focus:outline-none text-base",
                                     selected
                                         ? "bg-white text-indigo-600 border-b-4 border-indigo-600"
                                         : "text-gray-900 hover:bg-white/[0.12]"

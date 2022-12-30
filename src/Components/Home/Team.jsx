@@ -10,9 +10,9 @@ const Team = () => {
         <>
             <section className={cssClasses.teamPeopleArea}>
                 <div className={cssClasses.containerFluid}>
-                    <div className={cssClasses.row}>
-                        <div className={cssClasses.col_lg_6}>
-                            <div className={cssClasses.team_people_text}>
+                    <div className={`flex flex-col lg:flex-row`}>
+                        <div className={`w-full flex flex-row lg:flex-col items-center justify-center`}>
+                            <div className={`${cssClasses.team_people_text} px-6 lg:px-0 lg:pl-8`}>
                                 <div className={cssClasses.lTitle}>
                                     <img src="img/icon/title-icon.png" alt="" />
                                     <h6>Discover the features</h6>
@@ -21,25 +21,25 @@ const Team = () => {
                                 <p>Because we at Orbiz have a culture of empathising with all our stakeholders, our customers, our team, with an open mind and a feed- back –feed- forward approach that helps us for being in sync with the latest market trends and customer requirements!</p>
                             </div>
                         </div>
-                        <div className={cssClasses.col_lg_6}>
+                        <div className='sm:mr-8 lg:mr-0'>
                             <div className={cssClasses.team_img_inner}>
-                                <div className={cssClasses.row}>
-                                    <div className={`${cssClasses.col_lg_6} ${cssClasses.col_6}`}>
+                                <div className={`grid grid-cols-2`}>
+                                    <div className={``}>
                                         <div className={cssClasses.team_img_item}>
                                             <img src={teamP1} alt="" />
                                         </div>
                                     </div>
-                                    <div className={`${cssClasses.col_lg_6} ${cssClasses.col - 6}`}>
+                                    <div className={``}>
                                         <div className={cssClasses.team_img_item}>
                                             <img src={teamP2} alt="" />
                                         </div>
                                     </div>
-                                    <div className={`${cssClasses.col_lg_6} ${cssClasses.col - 6}`}>
+                                    <div className={``}>
                                         <div className={cssClasses.team_img_item}>
                                             <img src={teamP3} alt="" />
                                         </div>
                                     </div>
-                                    <div className={`${cssClasses.col_lg_6} ${cssClasses.col - 6}`}>
+                                    <div className={``}>
                                         <div className={cssClasses.team_img_item}>
                                             <img src={teamP4} alt="" />
                                         </div>
