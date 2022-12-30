@@ -29,8 +29,8 @@ const Navbar = () => {
                                 </Link>
                             </li>
                             <li className={`${cssClasses.nav_item}`}>
-                                <Link to="/career" className={`${cssClasses.nav_link}`}>
-                                    Career
+                                <Link to="/enquire" className={`${cssClasses.nav_link}`}>
+                                    Enquire
                                 </Link>
                             </li>
                             <li className={`${cssClasses.nav_item}`}>
@@ -38,11 +38,11 @@ const Navbar = () => {
                                     About Us
                                 </Link>
                             </li>
-                            <li className={`${cssClasses.nav_item}`}>
+                            {/* <li className={`${cssClasses.nav_item}`}>
                                 <Link to="/contact-us" className={`${cssClasses.nav_link}`}>
                                     Contact Us
                                 </Link>
-                            </li>
+                            </li> */}
                             <li className={`${cssClasses.nav_item}`}>
                                 <Link to="/KnowledgeBank" className={`${cssClasses.nav_link}`}>
                                     Knowledge Bank
@@ -67,28 +67,28 @@ const Navbar = () => {
                             <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
                         </button>
                         <div class={`w-full ${handleNavbar ? '' : 'hidden'}`} id="navbar-hamburger">
-                            <ul class="flex flex-col mt-4 rounded-lg bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
-                                <li>
+                            <ul class="w-full flex flex-col mt-4 rounded-lg bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
+                                <li className="w-full text-right border-b border-[#333] py-2">
                                     <Link to="/" className={`${cssClasses.nav_link}`}>
                                         Home
                                     </Link>
                                 </li>
-                                <li>
+                                <li className="w-full text-right border-b border-[#333] py-2">
                                     <Link to="/projects" className={`${cssClasses.nav_link}`}>
                                         Projects
                                     </Link>
                                 </li>
-                                <li>
+                                <li className="w-full text-right border-b border-[#333] py-2">
                                     <Link to="/about-us" className={`${cssClasses.nav_link}`}>
                                         About Us
                                     </Link>
                                 </li>
-                                <li>
-                                    <Link to="/contact-us" className={`${cssClasses.nav_link}`}>
-                                        Contact Us
+                                <li className="w-full text-right border-b border-[#333] py-2">
+                                    <Link to="/enquire" className={`${cssClasses.nav_link}`}>
+                                        Enquire
                                     </Link>
                                 </li>
-                                <li>
+                                <li className="w-full text-right border-b border-[#333] py-2">
                                     <Link to="/KnowledgeBank" className={`${cssClasses.nav_link}`}>
                                         Knowledge Bank
                                     </Link>

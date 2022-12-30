@@ -36,18 +36,18 @@ function App() {
                         </React.Suspense>
                     }
                 />
-                <Route
+                {/* <Route
                     exact
-                    path="/career"
+                    path="/enquire"
                     element={
                         <React.Suspense fallback={<Loader />}>
                             <Career />
                         </React.Suspense>
                     }
-                ></Route>
+                ></Route> */}
                 <Route
                     exact
-                    path="/contact-us"
+                    path="/enquire"
                     element={
                         <React.Suspense fallback={<Loader />}>
                             <ContactUs />

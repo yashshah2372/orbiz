@@ -6,8 +6,9 @@ const Header = () => {
     return (
         <>
             <div className={`${cssClasses.ftcoDegreeBg} ${cssClasses.heroWrap}`}>
-                <span>
-                    Move Into What Moves <span className={cssClasses.textAnimation}>You!</span>
+                <span className="w-full sm:w-[40%]">
+                    Move Into What Moves 
+                    <span className={cssClasses.textAnimation}>You!</span>
                 </span>
                 <div className={cssClasses.overlay}></div>
                 <div className={cssClasses.mouse}>
