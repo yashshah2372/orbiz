@@ -6,7 +6,7 @@ const Tabs = ({ tabCategories, handleTabChange }) => {
     }
 
     return (
-        <div className="flex w-1/2 mx-auto sm:px-0 border-b border-gray-300">
+        <div className="flex w-full lg:w-1/2 lg:mx-auto px-6 lg:px-0 border-b border-gray-300">
             <Tab.Group
                 onChange={index => handleTabChange(index)}
             >

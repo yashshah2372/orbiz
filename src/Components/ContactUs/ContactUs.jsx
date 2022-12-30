@@ -12,8 +12,8 @@ function ContactUs() {
 
     return (
         <>
-            <div className="mt-40 mb-8 px-8">
-                <Tabs tabCategories={["Enquire Here", "Vendor", "Job Openings"]} handleTabChange={handleTabChange} />
+            <div className="mt-6 lg:mt-40 mb-8 lg:px-8">
+                <Tabs tabCategories={["Flat Enquiry", "Vendor", "Job Openings"]} handleTabChange={handleTabChange} />
                 {
                     activeTab === 0 && <Enquire />
                 }
