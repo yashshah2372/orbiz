@@ -27,7 +27,7 @@ const Projects = () => {
                     <div className={cssClasses.imageWrapper}>
                         <div className={cssClasses.image}>
                             <SimpleSlider />
-                            <div className="absolute bottom-0 left-0 px-12 py-12 w-full">
+                            <div className="absolute bottom-0 left-0 px-12 py-12 w-11/12">
                                 <p className="text-white font-[Montserrat] font-normal text-xl leading-8">Kanchan</p>
                                 <div className="flex">
                                     <div className="w-3/4 border-r-2 border-white border-opacity-20">
@@ -53,7 +53,7 @@ const Projects = () => {
                     <div className={cssClasses.imageWrapper}>
                         <div className={cssClasses.image}>
                             <SimpleSlider />
-                            <div className="absolute bottom-0 left-0 px-12 py-12 w-full">
+                            <div className="absolute bottom-0 left-0 px-12 py-12 w-11/12">
                                 <p className="text-white font-[Montserrat] font-normal text-xl leading-8">Kanchan</p>
                                 <div className="flex font-[Montserrat] w-full my-6 text-lg">
                                     <ul className="text-white h-10 w-full list-disc">
@@ -84,7 +84,7 @@ const Projects = () => {
                     <div className={cssClasses.imageWrapper}>
                         <div className={cssClasses.image}>
                             <SimpleSlider />
-                            <div className="absolute bottom-0 left-0 px-12 py-12 w-full">
+                            <div className="absolute bottom-0 left-0 px-12 py-12 w-11/12">
                                 <p className="text-white font-[Montserrat] font-normal text-xl leading-8">Kanchan</p>
                                 <div className="flex font-[Montserrat] w-full my-6 text-lg">
                                     <ul className="text-white h-10 w-full list-disc">
