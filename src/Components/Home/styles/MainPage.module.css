@@ -36,6 +36,7 @@ Table of Content:
 /*Color Variables*/
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,900");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap");
 .col-md-offset-right-1,
 .col-lg-offset-right-1 {
     margin-right: 8.33333333%;
@@ -47,6 +48,7 @@ Table of Content:
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: "Montserrat" !important;
 }
 ul {
     list-style: none;
@@ -420,7 +422,7 @@ i:before {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../../../Assets//Images/OrbizHeroVector.svg);
+    background-image: url(../../../Assets/Images/Orbiz_BG_2.png);
     background-size: 100vw;
     background-position-x: center;
     background-position-y: bottom;
@@ -428,9 +430,40 @@ i:before {
 .ftcoDegreeBg span {
     font-size: 5rem;
     width: 40%;
-    font-weight: 800;
-    line-height: 7rem;
+    font-weight: 900;
+    line-height: 6rem;
     text-align: center;
+    padding-bottom: 1rem;
+    transform: translateY(-20%);
+}
+.ftcoDegreeBg span.textAnimation {
+    background: linear-gradient(102.25deg, #70bafe 9.7%, #7263ff 46.33%, #70bafe 87.89%);
+    background-size: 400% 400%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: header 2s linear infinite;
+    animation: header 3s linear infinite;
+}
+
+@keyframes header {
+    0% {
+        background-position: 0% 50%;
+        background: linear-gradient(102.25deg, #70bafe 87.89%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    50% {
+        background-position: 100% 50%;
+        background: linear-gradient(102.25deg, #7263ff 46.33%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    100% {
+        background-position: 0% 50%;
+        background: linear-gradient(102.25deg, #70bafe 9.7%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
 }
 
 /* .ftcoDegreeBg:after {
@@ -678,27 +711,19 @@ i:before {
 
 .testiItem h3 {
     font-size: 36px;
-    font-family: "Roboto", sans-serif;
-    font-weight: bold;
-    color: #0b1033;
-    font-weight: 900;
+    color: #081828;
+    font-weight: 800;
 }
-/* .testiItem span.alphabet {
-    font-size: 36px;
-    font-family: "Roboto", sans-serif;
-    font-weight: bold;
-    color: #0b1033;
-} */
 .testiItem span {
     font-size: 32px;
     font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    color: #0b1033;
+    font-weight: 700;
+    color: #081828;
 }
 
 .testiItem p {
     font-size: 15px;
-    color: #000;
+    color: #081828;
     line-height: 28px;
     font-weight: normal;
     text-align: left;

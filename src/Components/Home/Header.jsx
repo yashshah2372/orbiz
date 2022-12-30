@@ -6,7 +6,9 @@ const Header = () => {
     return (
         <>
             <div className={`${cssClasses.ftcoDegreeBg} ${cssClasses.heroWrap}`}>
-                <span>Move Into What Moves You!</span>
+                <span>
+                    Move Into What Moves <span className={cssClasses.textAnimation}>You!</span>
+                </span>
                 <div className={cssClasses.overlay}></div>
                 <div className={cssClasses.mouse}>
                     <a href="/" className={`${cssClasses.mouseIcon}`}>
