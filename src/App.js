@@ -47,7 +47,7 @@ function App() {
                 ></Route>
                 <Route
                     exact
-                    path="/contactUs"
+                    path="/contact-us"
                     element={
                         <React.Suspense fallback={<Loader />}>
                             <ContactUs />

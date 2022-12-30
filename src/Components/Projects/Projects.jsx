@@ -1,6 +1,8 @@
 import React from "react";
 import { useState } from "react";
 import cssClasses from "./Project.module.css";
+import Slider from "react-slick";
+import SimpleSlider from "../../Subcomponents/Slider/Slider";
 
 const Projects = () => {
     const [data, setData] = useState("specifications");
@@ -24,6 +26,7 @@ const Projects = () => {
                 {data === "specifications" ? (
                     <div className={cssClasses.imageWrapper}>
                         <div className={cssClasses.image}>
+                            <SimpleSlider />
                             <div className="absolute bottom-0 left-0 px-12 py-12 w-full">
                                 <p className="text-white font-[Montserrat] font-normal text-xl leading-8">Kanchan</p>
                                 <div className="flex">
@@ -49,6 +52,7 @@ const Projects = () => {
                 ) : data === "amenities" ? (
                     <div className={cssClasses.imageWrapper}>
                         <div className={cssClasses.image}>
+                            <SimpleSlider />
                             <div className="absolute bottom-0 left-0 px-12 py-12 w-full">
                                 <p className="text-white font-[Montserrat] font-normal text-xl leading-8">Kanchan</p>
                                 <div className="flex font-[Montserrat] w-full my-6 text-lg">
@@ -79,6 +83,7 @@ const Projects = () => {
                 ) : (
                     <div className={cssClasses.imageWrapper}>
                         <div className={cssClasses.image}>
+                            <SimpleSlider />
                             <div className="absolute bottom-0 left-0 px-12 py-12 w-full">
                                 <p className="text-white font-[Montserrat] font-normal text-xl leading-8">Kanchan</p>
                                 <div className="flex font-[Montserrat] w-full my-6 text-lg">

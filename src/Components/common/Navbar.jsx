@@ -39,7 +39,7 @@ const Navbar = () => {
                             </Link>
                         </li>
                         <li className={`${cssClasses.nav_item}`}>
-                            <Link to="/contactUs" className={`${cssClasses.nav_link}`}>
+                            <Link to="/contact-us" className={`${cssClasses.nav_link}`}>
                                 Contact Us
                             </Link>
                         </li>

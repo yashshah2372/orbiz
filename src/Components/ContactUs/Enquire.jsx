@@ -13,6 +13,8 @@ const Enquire = () => {
         e.preventDefault();
         const data = formData;
         console.log(data);
+        clearFormData();
+        document.getElementById('enquire-form').reset()
     }
 
     const handleFirstNameInputChange = (e) => {
@@ -35,9 +37,18 @@ const Enquire = () => {
         setFormData({ ...formData, phone: value });
     }
 
+    const clearFormData = () => {
+        setFormData({
+            firstName: '',
+            lastName: '',
+            email: '',
+            phone: undefined,
+        });
+    }
+
     return (
         <div className='mt-10'>
-            <form onSubmit={handleFormSubmit} className='w-1/2 mx-auto'>
+            <form onSubmit={handleFormSubmit} className='w-1/2 mx-auto' id='enquire-form'>
                 <div className="grid md:grid-cols-2 md:gap-6">
                     <div className="relative z-0 mb-6 w-full group">
                         <input
@@ -164,6 +175,7 @@ const Enquire = () => {
                     Submit
                 </button>
                 <button
+                    onClick={clearFormData}
                     type="reset"
                     className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-10 py-3 mt-8 ml-4 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                 >
