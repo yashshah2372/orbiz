@@ -434,9 +434,12 @@ i:before {
     line-height: 6rem;
     text-align: center;
     padding-bottom: 1rem;
-    transform: translateY(-20%);
+    transform: translateY(-10%);
 }
 .ftcoDegreeBg span.textAnimation {
+    width: 100%;
+    text-align: center;
+    display: block;
     background: linear-gradient(102.25deg, #70bafe 9.7%, #7263ff 46.33%, #70bafe 87.89%);
     background-size: 400% 400%;
     -webkit-background-clip: text;
