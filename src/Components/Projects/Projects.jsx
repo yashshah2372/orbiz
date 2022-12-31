@@ -8,7 +8,7 @@ const Projects = () => {
     const [data, setData] = useState("specifications");
     return (
         <div className="w-full flex justify-center">
-            <div className="flex mt-32 p-8 justify-center w-4/5">
+            <div className="flex sm:mt-32 p-8 justify-center w-4/5 flex-col sm:flex-row mt-2">
                 <div className="bg-[#293241] h-[32.5rem] px-16 py-12 w-1/3 font-[Montserrat]">
                     <span className="text-white text-2xl block border-l-4 pl-4 border-[#FF8845]">FEATURE PROPERTY</span>
                     <ul className="text-white text-xl py-8">

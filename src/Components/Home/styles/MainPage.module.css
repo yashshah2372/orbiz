@@ -423,7 +423,7 @@ i:before {
     justify-content: center;
     align-items: center;
     background-image: url(../../../Assets/Images/Orbiz_BG_2.png);
-    background-size: 100vw;
+    background-size: cover;
     background-position-x: center;
     background-position-y: bottom;
 }
@@ -1693,7 +1693,7 @@ i:before {
 }
 
 @media (max-width: 768px) {
-    .bd_callout{
+    .bd_callout {
         width: 100%;
         position: absolute;
         left: 0;
@@ -2663,7 +2663,7 @@ section.container {
     display: flex;
 }
 .feature_content > :nth-child(even) {
-    background: url("../../../Assets/Images/3d-shap.png") no-repeat scroll center center;
+    background: url("../../../Assets/Images/3d-shap.png") no-repeat center center;
     background-size: 100%;
     display: flex;
 }
@@ -2686,8 +2686,8 @@ section.container {
 }
 
 @media (min-width: 769px) and (max-width: 991px) {
-    .feature_content{
-        grid-template-columns: repeat(1,1fr);
+    .feature_content {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 
