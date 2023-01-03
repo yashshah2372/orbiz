@@ -1,13 +1,19 @@
 .imageWrapper {
     height: 32.5rem;
     width: 75%;
-    position: relative;
+    /* position: relative; */
 }
 .image {
     position: relative;
     /* background-image: url(../../Assets/Images/div.svg); */
-    height: 100%;
+    height: 32.5rem;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+@media (max-width: 768px) {
+    .imageWrapper {
+        width: 100%;
+    }
 }

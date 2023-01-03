@@ -1,0 +1,114 @@
+.wrapper {
+    margin-top: 5rem;
+    min-height: 100vh;
+}
+.logoSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    padding: 2rem 0;
+}
+.logoImages {
+    height: 5%;
+    width: 5%;
+}
+.businessSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding: 2rem 0;
+    height: calc(100vh - 10rem);
+    width: 100%;
+}
+.houseWrapper {
+    height: 100%;
+    width: 30%;
+    background: url(../../Assets/Images/div.svg) no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.restaurantWrapper {
+    height: 100%;
+    width: 30%;
+    background: url(../../Assets/Images/div.svg) no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.officeWrapper {
+    height: 100%;
+    width: 30%;
+    background: url(../../Assets/Images/div.svg) no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.houseWrapper span,
+.officeWrapper span,
+.restaurantWrapper span {
+    font-family: Montserrat;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 2.2rem;
+    letter-spacing: 0em;
+    text-align: center;
+    background-color: white;
+    padding: 1rem 1.5rem;
+}
+span.subTitle {
+    display: block;
+    font-family: Montserrat;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 92, 54, 1);
+}
+
+@media only screen and (max-width: 600px) {
+    .logoSection {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .logoImages {
+        height: 20%;
+        width: 20%;
+    }
+    .businessSection {
+        flex-direction: column;
+        height: 100vh;
+    }
+    .officeWrapper,
+    .restaurantWrapper,
+    .houseWrapper {
+        height: 100vh;
+        width: 90%;
+    }
+}
+@media only screen and (min-width: 321px) and (max-width: 768px) {
+    .logoSection {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .logoImages {
+        height: 20%;
+        width: 20%;
+    }
+    .businessSection {
+        flex-direction: column;
+        height: 100vh;
+    }
+    .officeWrapper,
+    .restaurantWrapper,
+    .houseWrapper {
+        height: 100vh;
+        width: 90%;
+    }
+}

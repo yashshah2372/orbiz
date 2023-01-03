@@ -1,4 +1,7 @@
 import React, { useState } from "react";
+import Captcha from "../../Subcomponents/Slider/Captcha/Captcha";
+import { collection, addDoc } from "firebase/firestore";
+import { db } from "../../firebase";
 
 const Enquire = () => {
     const [formData, setFormData] = useState({
@@ -6,10 +9,21 @@ const Enquire = () => {
         lastName: "",
         email: "",
         phone: undefined,
-        project: "",
+        project: "Kanchan",
         source: "",
         flatDetails: [],
     });
+
+    const addTodo = async (e) => {
+        e.preventDefault();
+        console.log("Hiii");
+        try {
+            const docRef = await addDoc(collection(db, "enquiry"), { formData });
+            console.log("Document written with ID: ", docRef.id);
+        } catch (e) {
+            console.error("Error adding document: ", e);
+        }
+    };
     const [validEmail, setValidEmail] = useState(true);
     const [validPhone, setValidPhone] = useState(true);
 
@@ -101,7 +115,7 @@ const Enquire = () => {
 
     return (
         <div className="mt-10">
-            <form onSubmit={handleFormSubmit} className="w-full px-6 lg:px-0 lg:w-1/2 lg:mx-auto" id="enquire-form">
+            <form className="w-full px-6 lg:px-0 lg:w-1/2 lg:mx-auto" id="enquire-form">
                 <div className="grid md:grid-cols-2 md:gap-6">
                     <div className="relative z-0 mb-6 w-full group">
                         <input type="text" name="first_name" id="floating_first_name" className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " value={formData.firstName} onChange={handleFirstNameInputChange} />
@@ -197,7 +211,8 @@ const Enquire = () => {
                         </select>
                     </div>
                 </div>
-                <button type="submit" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-10 py-3 mt-8 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                <Captcha />
+                <button type="submit" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-10 py-3 mt-8 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" onClick={addTodo}>
                     Submit
                 </button>
                 <button onClick={clearFormData} type="reset" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-10 py-3 mt-2 sm:ml-4 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">

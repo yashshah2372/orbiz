@@ -2664,7 +2664,8 @@ section.container {
 }
 .feature_content > :nth-child(even) {
     background: url("../../../Assets/Images/3d-shap.png") no-repeat center center;
-    background-size: 100%;
+    background-size: 100% 100%;
+
     display: flex;
 }
 .feature_content .item::before {
@@ -2672,7 +2673,7 @@ section.container {
     position: absolute;
     left: 0;
     top: 0;
-    background: #eee;
+    /* background: #eee; */
     opacity: 0.2;
     width: 100%;
     height: 100%;

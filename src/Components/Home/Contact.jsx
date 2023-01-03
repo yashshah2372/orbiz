@@ -1,6 +1,6 @@
-import React from 'react';
-import cssClasses from "./styles/MainPage.module.css"
-import worldMap from '../../Assets/Images/world-map.png';
+import React from "react";
+import cssClasses from "./styles/MainPage.module.css";
+import worldMap from "../../Assets/Images/world-map.png";
 
 const Contact = () => {
     return (
@@ -11,17 +11,25 @@ const Contact = () => {
                         <div className={cssClasses.world_map_inner}>
                             <img className={cssClasses.img_fluid} src={worldMap} alt="" />
                             <div className={`${cssClasses.bd_callout} px-4`}>
-                                <h3>Gibraltar Office</h3>
-                                <p>Casemates Square, no253 United kingdom</p>
-                                <h4 className='block'><a href="/">+453678 9283 559</a> </h4>
-                                <h4 className='block'><a href="/">contact@template.com</a></h4>
+                                <h3>
+                                    ORBIZ GROUP
+                                    <br />
+                                    Head Office
+                                </h3>
+                                <p>3rd Floor, Ashtavinayak Apt., 1128 Shukrawar Peth, Sathe Colony, Near Tilak Rd Shetriya Karayalay, Behind Kothari Honda, Pune - 02</p>
+                                <h4 className="block">
+                                    <a href="tel:+919689848130">+91 96898 48130</a>{" "}
+                                </h4>
+                                <h4 className="block">
+                                    <a href="mailto:siddesh@orbizestate.com">siddesh@orbizestate.com</a>
+                                </h4>
                             </div>
                         </div>
                     </div>
                 </section>
             </section>
         </>
-    )
-}
+    );
+};
 
 export default Contact;

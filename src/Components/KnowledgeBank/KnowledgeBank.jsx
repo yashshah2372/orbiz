@@ -1,4 +1,3 @@
-
 function KnowledgeBank() {
     return (
         <>
@@ -12,50 +11,36 @@ function KnowledgeBank() {
                                     <svg class="flex-shrink-0 mr-2 w-5 h-5 text-gray-500 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                         <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path>
                                     </svg>
-                                    What do you mean by "Figma assets"?
+                                    What is Carpet Area?
                                 </h3>
-                                <p class="text-gray-500 dark:text-gray-400">You will have access to download the full Figma project including all of the pages, the components, responsive pages, and also the icons, illustrations, and images included in the screens.</p>
+                                <p class="text-gray-500 dark:text-gray-400">As per Real Estate (Regulation and Development) Act, 2016, “Carpet Area” means the net usable floor area of an apartment, excluding the area covered by the external walls, areas under service shafts, exclusive balcony or veranda area and exclusive open terrace area, but includes the area covered by the internal partition walls of the apartment.</p>
                             </div>
                             <div class="mb-10">
                                 <h3 class="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white">
                                     <svg class="flex-shrink-0 mr-2 w-5 h-5 text-gray-500 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                         <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path>
                                     </svg>
-                                    What does "lifetime access" exactly mean?
+                                    Why do Co-operative Housing Societies collect a Sinking Fund?
                                 </h3>
-                                <p class="text-gray-500 dark:text-gray-400">Once you have purchased either the design, code, or both packages, you will have access to all of the future updates based on the roadmap, free of charge.</p>
+                                <p class="text-gray-500 dark:text-gray-400">Co-operative Housing Societies have a statutory obligation to collect a Sinking Fund. This is done so that in case the building needs to be repaired or reconstructed in the future, the society has sufficient funds to carry out the work. The amount to be contributed is decided by the General Body of the society; it should be at least ¼ percent per annum of the cost of each apartment, excluding the cost of the land. This fund may be used after a resolution is passed at the General Body meeting with the prior permission of the Registering Authority. This could be to carry out reconstruction, repairs, structural additions or alterations to the building as the architect thinks is required and certifies.</p>
                             </div>
                             <div class="mb-10">
                                 <h3 class="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white">
                                     <svg class="flex-shrink-0 mr-2 w-5 h-5 text-gray-500 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                         <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path>
                                     </svg>
-                                    How does support work?
+                                    What is meant by valuation of property?
                                 </h3>
-                                <p class="text-gray-500 dark:text-gray-400">We're aware of the importance of well qualified support, that is why we decided that support will only be provided by the authors that actually worked on this project.</p>
-                                <p class="text-gray-500 dark:text-gray-400">
-                                    Feel free to{" "}
-                                    <a href="/" class="font-medium underline text-primary-600 dark:text-primary-500 hover:no-underline" target="_blank" rel="noreferrer">
-                                        contact us
-                                    </a>{" "}
-                                    and we'll help you out as soon as we can.
-                                </p>
+                                <p class="text-gray-500 dark:text-gray-400">The valuation process evaluates the market value of the property. Demand and supply forces operating in the market, as well as other factors like type of property, quality of construction, its location, the local infrastructure available, maintenance, are all taken into consideration before the market value is decided.</p>
                             </div>
                             <div class="mb-10">
                                 <h3 class="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white">
                                     <svg class="flex-shrink-0 mr-2 w-5 h-5 text-gray-500 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                         <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path>
                                     </svg>
-                                    I want to build more than one project. Is that allowed?
+                                    How is its stamp duty decided?
                                 </h3>
-                                <p class="text-gray-500 dark:text-gray-400">You can use Windster for an unlimited amount of projects, whether it's a personal website, a SaaS app, or a website for a client. As long as you don't build a product that will directly compete with Windster either as a UI kit, theme, or template, it's fine.</p>
-                                <p class="text-gray-500 dark:text-gray-400">
-                                    Find out more information by{" "}
-                                    {/* <Link to="/license" class="font-medium underline text-primary-600 dark:text-primary-500 hover:no-underline">
-                                    reading the license
-                                </Link> */}
-                                    .
-                                </p>
+                                <p class="text-gray-500 dark:text-gray-400">Stamp duty is based on the market value or the agreement value of the property, whichever is greater.</p>
                             </div>
                         </div>
                         <div>
@@ -64,58 +49,36 @@ function KnowledgeBank() {
                                     <svg class="flex-shrink-0 mr-2 w-5 h-5 text-gray-500 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                         <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path>
                                     </svg>
-                                    What does "free updates" include?
+                                    What is the difference between carpet area, built-up and super built-up area?
                                 </h3>
-                                <p class="text-gray-500 dark:text-gray-400">
-                                    The free updates that will be provided is based on the{" "}
-                                    <a href="/" class="font-medium underline text-primary-600 dark:text-primary-500 hover:no-underline">
-                                        roadmap
-                                    </a>{" "}
-                                    that we have laid out for this project. It is also possible that we will provide extra updates outside of the roadmap as well.
-                                </p>
+                                <p class="text-gray-500 dark:text-gray-400">Before purchasing property from a company, it is necessary to verify with the Registrar of Companies that the property is not mortgaged or is not being used as a security against a loan, otherwise it is not considered a freehold property.The area of an apartment or building, not inclusive of the area of the walls is known as carpet area. This is the area that is actually used and in which a carpet can be laid. When the area of the walls including the balcony is calculated along with the carpet area, it is known as built-up area. The built-up area along with the area under common spaces like lobby, lifts, stairs, garden and swimming pool is called super built-up area.</p>
                             </div>
                             <div class="mb-10">
                                 <h3 class="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white">
                                     <svg class="flex-shrink-0 mr-2 w-5 h-5 text-gray-500 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                         <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path>
                                     </svg>
-                                    What does the free version include?
+                                    What constitutes conclusion of sale of a property?
                                 </h3>
-                                <p class="text-gray-500 dark:text-gray-400">
-                                    The{" "}
-                                    <a href="/" class="font-medium underline text-primary-600 dark:text-primary-500 hover:no-underline">
-                                        free version
-                                    </a>{" "}
-                                    of Windster includes a minimal style guidelines, component variants, and a dashboard page with the mobile version alongside it.
-                                </p>
-                                <p class="text-gray-500 dark:text-gray-400">You can use this version for any purposes, because it is open-source under the MIT license.</p>
+                                <p class="text-gray-500 dark:text-gray-400">An agreement of sale, coupled with actual possession of the property would be considered as a conclusion of the sale. Usually, the entire amount is paid at the time of handing over possession.</p>
                             </div>
                             <div class="mb-10">
                                 <h3 class="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white">
                                     <svg class="flex-shrink-0 mr-2 w-5 h-5 text-gray-500 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                         <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path>
                                     </svg>
-                                    What is the difference between Windster and Tailwind UI?
+                                    What is Total Consideration?
                                 </h3>
-                                <p class="text-gray-500 dark:text-gray-400">Although both Windster and Tailwind UI are built for integration with Tailwind CSS, the main difference is in the design, the pages, the extra components and UI elements that Windster includes.</p>
-                                <p class="text-gray-500 dark:text-gray-400">Additionally, Windster is a project that is still in development, and later it will include both the application, marketing, and e-commerce UI interfaces.</p>
+                                <p class="text-gray-500 dark:text-gray-400"> . Total Consideration means the amount amongst others payable for the said unit and the properties appurtenant thereto but does not include other amounts, charges, security deposits, stamp duty, registration fees, municipality tax and any other charges/tax/cess/levies etc levied by any authority that may be payable by purchasers.</p>
                             </div>
                             <div class="mb-10">
                                 <h3 class="flex items-center mb-4 text-lg font-medium text-gray-900 dark:text-white">
                                     <svg class="flex-shrink-0 mr-2 w-5 h-5 text-gray-500 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                         <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path>
                                     </svg>
-                                    Can I use Windster in open-source projects?
+                                    I have a flat which I want to sell and buy a new flat, bigger in area. What are my tax implications with regard to capital gains?
                                 </h3>
-                                <p class="text-gray-500 dark:text-gray-400">Generally, it is accepted to use Windster in open-source projects, as long as it is not a UI library, a theme, a template, a page-builder that would be considered as an alternative to Windster itself.</p>
-                                <p class="text-gray-500 dark:text-gray-400">With that being said, feel free to use this design kit for your open-source projects.</p>
-                                <p class="text-gray-500 dark:text-gray-400">
-                                    Find out more information by{" "}
-                                    {/* <Link to="/license" class="font-medium underline text-primary-600 dark:text-primary-500 hover:no-underline">
-                                    reading the license
-                                </Link> */}
-                                    .
-                                </p>
+                                <p class="text-gray-500 dark:text-gray-400">Capital Gains are exempt if a person purchases a new flat within two years of the date of sale of the original flat and invests the entire amount of capital gained into the new flat. However, the same is subject to the provisions of the Income Tax Act, 1961. Customers are requested to consult his/her Chartered Accountant in this regard.</p>
                             </div>
                         </div>
                     </div>

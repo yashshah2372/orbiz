@@ -1,0 +1,8 @@
+img.sliderImage {
+    max-width: 96.5% !important;
+}
+@media (max-width: 768px) {
+    img.sliderImage {
+        max-width: 100% !important;
+    }
+}
