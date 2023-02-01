@@ -17,7 +17,7 @@ const Footer = () => {
                     <div className={cssClasses.container2}>
                         <img src={logo} className={cssClasses.footerLogo} />
                         <h3>
-                            ORBIZ GROUP
+                            ORBIZ GROU
                             <br />
                             Head Office
                         </h3>
