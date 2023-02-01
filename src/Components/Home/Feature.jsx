@@ -16,7 +16,7 @@ const Feature = () => {
                                     <h3>
                                         O<span>ptimum</span>
                                     </h3>
-                                    <p>Optimum usage of Space, “Minimal wastage homes" is our motto, providing you with the ideal space required for your comfort, no more- no less.</p>
+                                    <p>usage of Space, “Minimal wastage homes" is our motto, providing you with the ideal space required for your comfort, no more- no less.</p>
                                     <div class={cssClasses.media}>
                                         <div class={cssClasses.dFlex}>
                                             <img class={cssClasses.rounded_circle} src="img/testimonials/testi-1.jpg" alt="" />
@@ -29,7 +29,7 @@ const Feature = () => {
                                     <h3>
                                         R<span>eal</span>
                                     </h3>
-                                    <p>“REAL” Estate, not just an Estate. An asset made using utmost quality Materials, with the best workmanship which is our USP.</p>
+                                    <p>Estate, not just an Estate. An asset made using utmost quality Materials, with the best workmanship which is our USP.</p>
                                     <div class={cssClasses.media}>
                                         <div class={cssClasses.dFlex}>
                                             <img class={cssClasses.rounded_circle} src="img/testimonials/testi-1.jpg" alt="" />
@@ -40,9 +40,9 @@ const Feature = () => {
                             <div class={cssClasses.item}>
                                 <div class={cssClasses.testiItem}>
                                     <h3>
-                                        B<span>alanced</span>
+                                        B<span>rilliance</span>
                                     </h3>
-                                    <p>Balanced well between all your concerns – Location, Price, Area. Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                    <p>Orbiz understands that its clients have unique needs and desires when it comes to finding their dream home and the company works hard to make sure that they are provided with the best possible solutions.</p>
                                     <div class={cssClasses.media}>
                                         <div class={cssClasses.dFlex}>
                                             <img class={cssClasses.rounded_circle} src="img/testimonials/testi-1.jpg" alt="" />
@@ -53,9 +53,9 @@ const Feature = () => {
                             <div class={cssClasses.item}>
                                 <div class={cssClasses.testiItem}>
                                     <h3>
-                                        I<span>llustrative</span>
+                                        I<span>nnovative</span>
                                     </h3>
-                                    <p>Illustrative homes setting a benchmark in Built Quality. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <p>and is reflective of the group’s ability to come up with creative and out of the box solutions to the issues of the real estate sector.</p>
                                     <div class={cssClasses.media}>
                                         <div class={cssClasses.dFlex}>
                                             <img class={cssClasses.rounded_circle} src="img/testimonials/testi-1.jpg" alt="" />
@@ -66,9 +66,9 @@ const Feature = () => {
                             <div class={cssClasses.item}>
                                 <div class={cssClasses.testiItem}>
                                     <h3>
-                                        Z<span></span>
+                                        Z<span>eal</span>
                                     </h3>
-                                    <p>Just like the letter Z, we ensure to be supportive till the End.Reiciendis, quibusdam!</p>
+                                    <p>We have a zealous and dedicated team of professionals who strive to exceed expectations and deliver the best possible results. The company's team is constantly striving to improve and innovate in order to provide the best possible service.</p>
                                     <div class={cssClasses.media}>
                                         <div class={cssClasses.dFlex}>
                                             <img class={cssClasses.rounded_circle} src="img/testimonials/testi-1.jpg" alt="" />

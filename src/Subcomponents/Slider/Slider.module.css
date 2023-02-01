@@ -1,5 +1,7 @@
 img.sliderImage {
     max-width: 96.5% !important;
+    max-height: 32rem !important;
+    object-fit: contain;
 }
 @media (max-width: 768px) {
     img.sliderImage {

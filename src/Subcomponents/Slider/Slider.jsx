@@ -25,7 +25,7 @@ export default class SimpleSlider extends Component {
         return (
             <div className="w-auto">
                 <Slider {...settings}>
-                    <div className="w-full">
+                    <div className="w-full ">
                         <img src={img1} alt="Kanchan 1" className={cssClasses.sliderImage} />
                     </div>
                     <div className="w-full">

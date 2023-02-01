@@ -9,6 +9,7 @@ import React from "react";
 const AboutUs = React.lazy(() => import("./Components/About/About"));
 const ContactUs = React.lazy(() => import("./Components/ContactUs/ContactUs"));
 const Projects = React.lazy(() => import("./Components/Projects/Projects"));
+const CompletedProjects = React.lazy(() => import("./Components/Projects/CompletedProjects"));
 const KnowledgeBank = React.lazy(() => import("./Components/KnowledgeBank/KnowledgeBank"));
 const Career = React.lazy(() => import("./Components/Career/career"));
 
@@ -36,15 +37,15 @@ function App() {
                         </React.Suspense>
                     }
                 />
-                {/* <Route
+                <Route
                     exact
-                    path="/enquire"
+                    path="/CompletedProjects"
                     element={
                         <React.Suspense fallback={<Loader />}>
-                            <Career />
+                            <CompletedProjects />
                         </React.Suspense>
                     }
-                ></Route> */}
+                ></Route>
                 <Route
                     exact
                     path="/enquire"

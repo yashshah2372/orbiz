@@ -2,6 +2,7 @@ import React, { useState } from "react";
 // import ReCAPTCHA from "react-google-recaptcha";
 import { collection, addDoc } from "firebase/firestore";
 import { db } from "../../firebase";
+import cssClasses from "../Home/styles/MainPage.module.css";
 
 const Vendor = () => {
     const [formData, setFormData] = useState({
@@ -159,11 +160,18 @@ const Vendor = () => {
                     </div>
                 </div>
                 {/* <ReCAPTCHA sitekey="Your client site key" onChange={() => console.log("changed!!")} style={{ marginTop: "2rem" }} /> */}
-                <button type="submit" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-10 py-3 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" onClick={addTodo}>
+                <button
+                    type="submit"
+                    className={` ${cssClasses.btn} ${cssClasses.submit_btn}`}
+                    style={{
+                        marginRight: "1rem",
+                    }}
+                    onClick={addTodo}
+                >
                     Submit
                 </button>
-                <button onClick={clearFormData} type="reset" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-10 py-3 mt-2 sm:ml-4 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                    Clear
+                <button onClick={clearFormData} type="reset" className="text-blue-700 underline font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-3 mt-2 sm:ml-4 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                    Clear All
                 </button>
             </form>
         </div>

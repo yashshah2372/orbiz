@@ -6,7 +6,7 @@ const Contact = () => {
     return (
         <>
             <section className={`${cssClasses.get_in_touch_area}`}>
-                <section className={`${cssClasses.world_map_area} ${cssClasses.p_100}`}>
+                <section className={`${cssClasses.world_map_area}`}>
                     <div className={cssClasses.container}>
                         <div className={cssClasses.world_map_inner}>
                             <img className={cssClasses.img_fluid} src={worldMap} alt="" />
