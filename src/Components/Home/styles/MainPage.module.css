@@ -2743,7 +2743,7 @@ section.container {
 
 @media (max-width: 768px) {
     .cTitle h2 {
-        font-size: 42px;
+        font-size: 43px;
     }
     .feature_content {
         grid-template-columns: repeat(1, 1fr);
