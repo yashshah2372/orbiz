@@ -35,7 +35,7 @@ const Projects = () => {
                                 <div className="flex items-center">
                                     <div className="w-[210%] sm:w-3/4 border-r-2 border-white border-opacity-20">
                                         <div>
-                                            <p className="w-full text-white font-[Montserrat] text-opacity-70 font-normal text-md sm:text-xl sm:leading-8 mb-2">3 Middle Winchendon Rd, Rindge, NH 03461</p>
+                                            <p className="w-full text-white font-[Montserrat] text-opacity-70 font-normal text-md sm:text-xl sm:leading-8 mb-2">S. No. 12/5/1A, Vadgaon Budruk, Pune 411041</p>
                                         </div>
                                         {/* <div>
                                             <span className="text-white font-[Montserrat] font-semibold text-md sm:text-xl sm:leading-8 bg-[#FF8845] px-2 py-1">For Rent</span>

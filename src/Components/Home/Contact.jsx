@@ -18,7 +18,7 @@ const Contact = () => {
                                 </h3>
                                 <p>3rd Floor, Ashtavinayak Apt., 1128 Shukrawar Peth, Sathe Colony, Near Tilak Rd Shetriya Karayalay, Behind Kothari Honda, Pune - 02</p>
                                 <h4 className="block">
-                                    <a href="tel:+919689848130">+91 96898 48130</a>{" "}
+                                    <a href="tel:020-71172850">020-71172850</a>{" "}
                                 </h4>
                                 <h4 className="block">
                                     <a href="mailto:siddesh@orbizestate.com">siddesh@orbizestate.com</a>
