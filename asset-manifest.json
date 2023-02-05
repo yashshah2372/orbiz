@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/orbiz/static/css/main.9798aeaa.css",
-    "main.js": "/orbiz/static/js/main.f1e9d1ca.js",
+    "main.js": "/orbiz/static/js/main.d0f0d081.js",
     "static/css/996.ea936c79.chunk.css": "/orbiz/static/css/996.ea936c79.chunk.css",
     "static/js/996.31b0381e.chunk.js": "/orbiz/static/js/996.31b0381e.chunk.js",
     "static/js/344.ce7f7f6e.chunk.js": "/orbiz/static/js/344.ce7f7f6e.chunk.js",
@@ -57,7 +57,7 @@
     "static/media/slick.woff": "/orbiz/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/orbiz/index.html",
     "main.9798aeaa.css.map": "/orbiz/static/css/main.9798aeaa.css.map",
-    "main.f1e9d1ca.js.map": "/orbiz/static/js/main.f1e9d1ca.js.map",
+    "main.d0f0d081.js.map": "/orbiz/static/js/main.d0f0d081.js.map",
     "996.ea936c79.chunk.css.map": "/orbiz/static/css/996.ea936c79.chunk.css.map",
     "996.31b0381e.chunk.js.map": "/orbiz/static/js/996.31b0381e.chunk.js.map",
     "344.ce7f7f6e.chunk.js.map": "/orbiz/static/js/344.ce7f7f6e.chunk.js.map",
@@ -73,6 +73,6 @@
   },
   "entrypoints": [
     "static/css/main.9798aeaa.css",
-    "static/js/main.f1e9d1ca.js"
+    "static/js/main.d0f0d081.js"
   ]
 }
