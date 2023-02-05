@@ -1,7 +1,7 @@
 {
     "name": "orbiz",
     "version": "0.1.0",
-    "homepage": "http://dhirenoswal.github.io",
+    "homepage": "http://yashshah2372.github.io/orbiz",
     "private": true,
     "dependencies": {
         "@emotion/react": "^11.10.5",
