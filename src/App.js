@@ -18,7 +18,7 @@ function App() {
         <Router>
             <Navbar />
             <Routes>
-                <Route path="/" element={<MainPage />}></Route>
+                <Route path="/orbiz" element={<MainPage />}></Route>
                 <Route
                     exact
                     path="/about-us"
