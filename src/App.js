@@ -21,7 +21,7 @@ function App() {
                 <Route path="/orbiz" element={<MainPage />}></Route>
                 <Route
                     exact
-                    path="/about-us"
+                    path="/orbiz/about-us"
                     element={
                         <React.Suspense fallback={<Loader />}>
                             <AboutUs />
@@ -30,7 +30,7 @@ function App() {
                 ></Route>
                 <Route
                     exact
-                    path="/projects"
+                    path="/orbiz/projects"
                     element={
                         <React.Suspense fallback={<Loader />}>
                             <Projects />
@@ -39,7 +39,7 @@ function App() {
                 />
                 <Route
                     exact
-                    path="/CompletedProjects"
+                    path="/orbiz/CompletedProjects"
                     element={
                         <React.Suspense fallback={<Loader />}>
                             <CompletedProjects />
@@ -48,7 +48,7 @@ function App() {
                 ></Route>
                 <Route
                     exact
-                    path="/enquire"
+                    path="/orbiz/enquire"
                     element={
                         <React.Suspense fallback={<Loader />}>
                             <ContactUs />
@@ -57,7 +57,7 @@ function App() {
                 ></Route>
                 <Route
                     exact
-                    path="/KnowledgeBank"
+                    path="/orbiz/KnowledgeBank"
                     element={
                         <React.Suspense fallback={<Loader />}>
                             <KnowledgeBank />
